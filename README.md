@@ -5,14 +5,14 @@ Some training improves Linux C/C++
 <details>
 <summary> </summary>
 
-``shell
+```shell
 ifconfig eno4 | grep "inet " | awk '{print $2}'
-``
+```
 
 
-``shell
+```shell
 ifconfig eno4 | grep "inet " | sed "s/netmask.*$//g" | sed "s/^.*et //g"
-``
+```
   
 </details>
 
