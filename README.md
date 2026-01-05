@@ -15,7 +15,8 @@ ifconfig eno4 | grep "inet " | awk '{print $2}'
 ```shell
 ifconfig eno4 | grep "inet " | sed "s/netmask.*$//g" | sed "s/^.*et //g"
 ```
-  
+
+sed这里的用法是 sed "s/要被取代的字符串/新的字符串/g"
 </details>
 
 
