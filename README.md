@@ -5,8 +5,8 @@ Some training improves Linux C/C++
 <details>
 <summary> </summary>
 这个问题的处理思路是通过关键字找到IP地址那一行(grep), 然后可以直接提取(awk)或者分别去掉IP地址前后的字符(sed);
-思路一：
 
+思路一：
 ```shell
 ifconfig eno4 | grep "inet " | awk '{print $2}'
 ```
