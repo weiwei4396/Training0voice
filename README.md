@@ -23,7 +23,9 @@ sed这里的用法是 sed "s/要被取代的字符串/新的字符串/g"
 #### Q2：统计一个txt文件中包含多少个单词？
 <details>
 <summary> </summary>
+
 这个问题的处理思路是转换机。 一个文本文件中所有的字符可以包含为字母和分隔符。文件中的字符有两种状态，单词里和单词外，从单词外→单词里需要是字母，而从单词里→单词外需要是分隔符。
+
 
 用到的c/c++基础：
 
@@ -47,6 +49,15 @@ int fgetc( FILE * fp );
 g++ -std=c++11 wordCount.cpp -o Word
 ./Word your_text.txt
 ```
+
+
+思考题2：统计txt文件中每个单词出现的数量。 依旧按照转换机的思路, 用每个单词作为哈希的key存储, 刚开始想用每个单词字符的加和作为key, 但是这样会引入哈希冲突。
+```shell
+g++ -std=c++11 eachwordCount.cpp -o Word
+./Word your_text.txt
+```
+
+
 
 </details>
 
