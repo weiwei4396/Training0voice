@@ -32,6 +32,13 @@ sed这里的用法是 sed "s/要被取代的字符串/新的字符串/g"
 ```cpp
 FILE * fopen( const char * filename , const char * mode );
 ```
+**filename**是字符串, 用来命名文件, **mode**控制访问模式比如读写。
+
+**fgetc**从文件读取单个字符的最简单的函数：
+```cpp
+int fgetc( FILE * fp );
+```
+fgetc()函数从fp所指向的输入文件中读取一个字符。返回值是读取的字符, 如果发生错误则返回EOF。
 
 
 2.**argc**是argument count的缩写, 表示传入main函数的参数个数; **argv**是argument vector的缩写, 表示传入main函数的参数序列或指针, 并且第一个参数argv[0]一定是程序的名称, 并且包含了程序所在的完整路径, 所以确切的说需要我们输入的main函数的参数个数应该是argc-1个;
