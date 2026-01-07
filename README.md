@@ -28,6 +28,11 @@ sed这里的用法是 sed "s/要被取代的字符串/新的字符串/g"
 用到的c/c++基础：
 
 1.[文件读取](https://blog.csdn.net/Hongwei_1990/article/details/94157375)
+使用**fopen**函数来创建一个新的文件或者打开一个已有的文件, 这个调用会初始化类型**FILE**的一个对象, 类型**FILE**包含了所有用来控制流的必要的信息。下面是这个函数调用的原型：
+```cpp
+FILE * fopen( const char * filename , const char * mode );
+```
+
 
 2.**argc**是argument count的缩写, 表示传入main函数的参数个数; **argv**是argument vector的缩写, 表示传入main函数的参数序列或指针, 并且第一个参数argv[0]一定是程序的名称, 并且包含了程序所在的完整路径, 所以确切的说需要我们输入的main函数的参数个数应该是argc-1个;
 
