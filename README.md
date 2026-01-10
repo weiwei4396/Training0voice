@@ -68,7 +68,8 @@ g++ -std=c++11 eachwordCount.cpp -o Word
 #### Q3：实现通讯录
 <details>
 <summary> </summary>
-
+首先要实现一个通讯录, 我们要实现的功能如下：
+![image](https://github.com/weiwei4396/Training0voice/blob/main/%E5%9B%BE%E7%89%87/zhuanhuan.jpg)
 
 
 
