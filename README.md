@@ -72,10 +72,13 @@ g++ -std=c++11 eachwordCount.cpp -o Word
 
 ![image](https://github.com/weiwei4396/Training0voice/blob/main/%E5%9B%BE%E7%89%87/addressBook_task.jpg)
 
-在做这个通讯录产品的时候, 需要提前思考产品的架构是怎么样的? 也就是我们需要考虑到构建这个产品会遇到的问题。
+在做这个通讯录产品的时候, 需要提前思考产品的架构是怎么样的? 因此我们需要考虑到构建这个产品会遇到的问题。
 
 ![image](https://github.com/weiwei4396/Training0voice/blob/main/%E5%9B%BE%E7%89%87/addressBook_question.jpg)
 
+有了以上的问题, 从底层往上开始构思产品架构:
+ 
+![image](https://github.com/weiwei4396/Training0voice/blob/main/%E5%9B%BE%E7%89%87/addressBook_Architecture.jpg)
 
 
 </details>
