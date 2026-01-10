@@ -68,11 +68,13 @@ g++ -std=c++11 eachwordCount.cpp -o Word
 #### Q3：实现通讯录
 <details>
 <summary> </summary>
-首先要实现一个通讯录, 我们要实现的功能如下：
+首先要实现一个通讯录, 我们想要的功能如下：
 
 ![image](https://github.com/weiwei4396/Training0voice/blob/main/%E5%9B%BE%E7%89%87/addressBook_task.jpg)
 
+在做这个通讯录产品的时候, 需要提前思考产品的架构是怎么样的? 也就是我们需要考虑到构建这个产品会遇到的问题。
 
+![image](https://github.com/weiwei4396/Training0voice/blob/main/%E5%9B%BE%E7%89%87/addressBook_question.jpg)
 
 
 
